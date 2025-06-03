@@ -1,0 +1,171 @@
+
+body
+{
+    margin: 0px;
+}
+
+main
+{
+    background-image: url("images/Avengers logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1
+{
+    text-align: left;
+    text-decoration: underline;
+    text-emphasis: bold;
+    font-size: 30px;
+    margin: 0px;
+}
+p
+{
+    margin: 0px;
+    padding: 0px;
+}
+table
+{
+    border-collapse: collapse;
+    border-width: "2px";
+    border: 2px solid white;
+    text-align: left;
+    width: 100%;
+    background-color: black;
+}
+th
+{
+    border: 2px solid white;
+    text-align: center;
+    color: brown;
+}
+ td
+{
+    border : 2px solid white;
+    color: white;
+    
+}
+#thorsBackground
+{
+    background-image: url("images/lightning.jpg");
+    color: white;
+    font-family: "Oswald, sans-serif";
+    font-size: large;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+#ironmansBackground
+{
+    background-image: url("images/ironman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Oswald, sans-serif";
+    font-size: large;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+#hulksBackground
+{
+    background-image: url("images/thegreen.jpg");
+    color: white;
+    font-family: "Oswald, sans-serif";
+    font-size: large;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+#hawkeyesBackground
+{
+    background-color: rgba(40, 4, 55, 0.884);
+    color: black;
+    font-family: "Oswald, sans-serif";
+    font-size: large;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+#captainAmericasBackground
+{
+    background-image: url("images/capt.jpg");
+    color: white;
+    font-family: "Oswald, sans-serif";
+    font-size: large;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+#blackWidowsBackground
+{
+    background-image: url("images/widow.jpg");
+    color: white;
+    font-family: "Oswald, sans-serif";
+    font-size: large;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+.navbar {
+    width: 100%;
+    background-color: rgb(11, 16, 39); /* Blue background for the navbar */
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(9, 11, 21, 0.1); /* Add a subtle shadow */
+    
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display list items in a row */
+    gap: 15px; /* Add spacing between items */
+}
+
+.navbar li {
+    display: inline; /* Ensure list items are inline */
+}
+
+.navbar a {
+    color: white; /*white text for links */
+    text-decoration: none; /* Remove underline */
+    font-family: "Oswald, sans-serif";
+    font-size: 16px;
+    padding: 10px 20px; /* Add padding for clickable area */
+    border: 2px solid rgb(74, 72, 72); /* White border for links */
+    background-color: rgb(1, 1, 53);
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+.navbar a:hover {
+    background-color: rgb(13, 13, 101); /* Red background on hover */
+    color: rgba(125, 3, 3, 0.614);
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Transform text to uppercase */    
+}
+img
+{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 100%;
+}
+.extraPages
+{
+    padding: 0px;
+    margin: 0px;
+
+
+}
+.extraPages p
+{
+    text-align: center;
+    text-decoration: underline;
+    text-emphasis: 700;
+    color: white;
+}
